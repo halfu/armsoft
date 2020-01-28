@@ -35,7 +35,7 @@ cp -rf /tmp/ssserver/bin/* /koolshare/bin/
 cp -rf /tmp/ssserver/webs/* /koolshare/webs/
 cp -rf /tmp/ssserver/res/* /koolshare/res/
 cp -rf /tmp/ssserver/init.d/* /koolshare/init.d/
-cp -rf /tmp/ssserver/install.sh /koolshare/scripts/uninstall_ssserver.sh
+cp -rf /tmp/ssserver/uninstall.sh /koolshare/scripts/uninstall_ssserver.sh
 chmod +x /koolshare/scripts/ssserver*
 chmod +x /koolshare/bin/ss-server
 chmod +x /koolshare/bin/obfs-server
